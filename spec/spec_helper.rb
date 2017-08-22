@@ -1,6 +1,3 @@
-require "codeclimate-test-reporter"
-CodeClimate::TestReporter.start
-
 $: << File.expand_path("../../lib", __FILE__)
 
 require 'database_cleaner'
